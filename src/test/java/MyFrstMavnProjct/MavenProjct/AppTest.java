@@ -8,5 +8,8 @@ public class AppTest{
 	{
 		System.out.println("My test");
 	}
-	
+	@Test
+	public void deleteTest() {
+		System.out.println("My Delete customer");
+	}
 }
