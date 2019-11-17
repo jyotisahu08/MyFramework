@@ -1,5 +1,7 @@
 package MyFrstMavnProjct.MavenProjct;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class AppTest{
@@ -11,5 +13,11 @@ public class AppTest{
 	@Test
 	public void deleteTest() {
 		System.out.println("My Delete customer");
+	}
+	@Test
+	public void launchTheBrowser() {
+		WebDriver driver = new FirefoxDriver();
+		driver.get("wwww.gmail.com");
+		driver.close();
 	}
 }
