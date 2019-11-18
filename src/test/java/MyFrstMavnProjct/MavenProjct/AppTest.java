@@ -15,6 +15,10 @@ public class AppTest{
 		System.out.println("My Delete customer");
 	}
 	@Test
+	public void modifyTest() {
+		System.out.println("My modify customer");
+	}
+	@Test
 	public void launchTheBrowser() {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("wwww.gmail.com");
